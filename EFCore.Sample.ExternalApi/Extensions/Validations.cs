@@ -212,7 +212,7 @@ namespace EFCore.Sample.ExternalApi.Extensions
 
         public static bool VerifyCallBack(string sentence)
         {
-            var callBack = @"callbacks.safeweb.com.br";
+            var callBack = @"callbacks.com.br";
 
             Regex ER = new Regex(callBack, RegexOptions.None);
             var urlCallBack = ER.IsMatch(sentence);

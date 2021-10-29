@@ -15,7 +15,7 @@ namespace EFCore.Sample.Business.Models.Validations
             bool isUrlCallBack = false;
             if (!string.IsNullOrEmpty(transaction.ReferenceDescription))
             {
-                var callBack = @"callbacks.safeweb.com.br";
+                var callBack = @"callbacks.com.br";
 
                 Regex ER = new Regex(callBack, RegexOptions.None);
                 isUrlCallBack = ER.IsMatch(transaction.ReferenceDescription);

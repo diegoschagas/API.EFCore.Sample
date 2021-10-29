@@ -57,10 +57,10 @@ namespace EFCore.Sample.Api.Configuration
         {
             var info = new OpenApiInfo()
             {
-                Title = "Api - Containment - safeweb",
+                Title = "Api - Exemplo",
                 Version = description.ApiVersion.ToString(),
-                Description = "Esta API faz parte da contenção da SafeWeb.",
-                Contact = new OpenApiContact() { Name = "Diego Chagas", Email = "diego.chagas@safeweb.com.br" },
+                Description = "Esta API é exemplode como usar EF Core e EF Core inMemory.",
+                Contact = new OpenApiContact() { Name = "Diego Chagas", Email = "diego.chagas@gmail.com" },
                 License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
             };
 

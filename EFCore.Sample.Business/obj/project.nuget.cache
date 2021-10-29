@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "0IGvDVDmRKAqWTSSd1HYK/TJKjPtmCHeV11wqtsKjm7idH4Ojlplee0kOYoHWjR48nfF2o9Zjwjnc/og4W/iig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\diego.chagas\\source\\repos\\API.EFCore.Sample\\EFCore.Sample.Business\\EFCore.Sample.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diego.chagas\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
+    "C:\\Users\\diego.chagas\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.11\\microsoft.aspnetcore.http.features.5.0.11.nupkg.sha512",
+    "C:\\Users\\diego.chagas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\diego.chagas\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\diego.chagas\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -46,7 +46,7 @@ namespace EFCore.Sample.Api.Configuration
                     builder =>
                         builder
                             .WithMethods("GET")
-                            .WithOrigins("http://safeweb.com.br")
+                            .WithOrigins("http://site.com.br")
                             .SetIsOriginAllowedToAllowWildcardSubdomains()
                             //.WithHeaders(HeaderNames.ContentType, "x-custom-header")
                             .AllowAnyHeader());
