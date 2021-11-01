@@ -5,6 +5,9 @@ using EFCore.Sample.Api.ViewModels;
 using EFCore.Sample.Business.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Caching.Memory;
+using System;
 
 namespace EFCore.Sample.Api.V1.Controllers
 {
@@ -38,6 +41,26 @@ namespace EFCore.Sample.Api.V1.Controllers
 
             var contasReceberViewModel = _mapper.Map<IEnumerable<ContasReceberViewModel>>(await _contasReceberRepository.GetAll());
 
+            return contasReceberViewModel;
+
+        }
+
+        [HttpGet]
+        public async Task<IEnumerable<ContasReceberViewModel>> GetInCacheMemory(
+            [FromServices] IConfiguration config,
+            [FromServices] IMemoryCache cache)
+        {
+
+            var contasReceberModel = cache.GetOrCreate<IEnumerable<ContasReceberViewModel>>(
+                "ContasReceber", context =>
+                {
+                    context.SetAbsoluteExpiration(TimeSpan.FromSeconds(30));
+                    context.SetPriority(CacheItemPriority.High);
+
+                    return (IEnumerable<ContasReceberViewModel>)_contasReceberRepository.GetAll().Result;
+                });
+            var contasReceberViewModel = _mapper.Map<IEnumerable<ContasReceberViewModel>>(contasReceberModel);
+            
             return contasReceberViewModel;
 
         }

@@ -1,0 +1,12 @@
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\bin\Debug\net5.0\EFCore.Sample.Business.deps.json
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\bin\Debug\net5.0\EFCore.Sample.Business.dll
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\bin\Debug\net5.0\ref\EFCore.Sample.Business.dll
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\bin\Debug\net5.0\EFCore.Sample.Business.pdb
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\obj\Debug\net5.0\EFCore.Sample.Business.csproj.AssemblyReference.cache
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\obj\Debug\net5.0\EFCore.Sample.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\obj\Debug\net5.0\EFCore.Sample.Business.AssemblyInfoInputs.cache
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\obj\Debug\net5.0\EFCore.Sample.Business.AssemblyInfo.cs
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\obj\Debug\net5.0\EFCore.Sample.Business.csproj.CoreCompileInputs.cache
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\obj\Debug\net5.0\EFCore.Sample.Business.dll
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\obj\Debug\net5.0\ref\EFCore.Sample.Business.dll
+C:\Users\diego.chagas\source\repos\API.EFCore.Sample\EFCore.Sample.Business\obj\Debug\net5.0\EFCore.Sample.Business.pdb

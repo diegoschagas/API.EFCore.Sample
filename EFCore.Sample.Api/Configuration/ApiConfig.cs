@@ -51,6 +51,7 @@ namespace EFCore.Sample.Api.Configuration
                             //.WithHeaders(HeaderNames.ContentType, "x-custom-header")
                             .AllowAnyHeader());
             });
+            services.AddMemoryCache();
 
             return services;
         }
