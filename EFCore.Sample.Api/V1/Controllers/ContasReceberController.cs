@@ -51,13 +51,13 @@ namespace EFCore.Sample.Api.V1.Controllers
             [FromServices] IMemoryCache cache)
         {
 
-            var contasReceberModel = cache.GetOrCreate<IEnumerable<ContasReceberViewModel>>(
+            var contasReceberModel = await cache.GetOrCreateAsync<IEnumerable<ContasReceberViewModel>>(
                 "ContasReceber", context =>
                 {
                     context.SetAbsoluteExpiration(TimeSpan.FromSeconds(30));
                     context.SetPriority(CacheItemPriority.High);
 
-                    return (IEnumerable<ContasReceberViewModel>)_contasReceberRepository.GetAll().Result;
+                    return Task.FromResult((IEnumerable<ContasReceberViewModel>)_contasReceberRepository.GetAll().Result);
                 });
             var contasReceberViewModel = _mapper.Map<IEnumerable<ContasReceberViewModel>>(contasReceberModel);
             
